@@ -1,0 +1,72 @@
+ <% include header %>            
+ <% include nav %>     
+ <% include slider %>     
+
+<div id="page">
+		<div id="content">
+			<div class="box">
+				<h2>subcategories of <%=catnm.cnm%></h2>
+<style>
+#mymain
+{
+height:450px;
+width:600px;
+
+
+}
+#mymainpart
+{
+height:150px;
+width:200px;
+
+float:left;
+}
+</style>
+                                
+
+<div id='mymain'>
+<% for(i=0;i<data.length;i++){%>
+<a href='/viewpost?scnm=<%=data[i].subcatnm%>'>
+<div id='mymainpart'>
+<center>
+
+<img src='uploads/<%= data[i].subcatimgnm%>' height='100' width='150' >
+<br>
+<b><%= data[i].subcatnm %></b>
+</center>
+</a>
+</div>
+
+<%}%>
+</div>
+				<p>
+					This is <strong>Big Business 2.0</strong>, a free and fully standards-compliant CSS website template by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. The pictures in this template are from <a href="http://fotogrph.com/">Fotogrph</a>. This free CSS template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you credit us in some way. Have fun :)
+				</p>
+			</div>
+			
+			
+			<br class="clearfix" />
+		</div>
+            
+            
+            
+            
+            
+		<div id="sidebar">
+			<div class="box">
+				<h3>category list</h3>
+				<ul class="list">
+					<% for(i=0;i<catlist.length;i++) { %>
+					<li><a href="/viewsubcat?scnm=<%= catlist[i].catnm %>"><%= catlist[i].catnm%></a></li>
+					<%}%>
+				</ul>
+			</div>
+			
+		</div>
+		<br class="clearfix" />
+	</div>
+</div>
+<% include footer %>     
+    
+    
+    

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>routes/index.js</url>
+            <bookmark id="1">
+                <name/>
+                <line>90</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Dimple%20Sharma/Desktop/myapp/routes/index.js</file>
+            <file>file:/C:/Users/Dimple%20Sharma/Desktop/myapp/routes/users.js</file>
+            <file>file:/C:/Users/Dimple%20Sharma/Desktop/myapp/views/userhome.ejs</file>
+            <file>file:/C:/Users/Dimple%20Sharma/Desktop/myapp/views/manageusersadmin.ejs</file>
+            <file>file:/C:/Users/Dimple%20Sharma/Desktop/myapp/views/addpostuser.ejs</file>
+            <file>file:/C:/Users/Dimple%20Sharma/Desktop/myapp/views/usernavigator.ejs</file>
+            <file>file:/C:/Users/Dimple%20Sharma/Desktop/myapp/views/managepostuser.ejs</file>
+            <file>file:/C:/Users/Dimple%20Sharma/Desktop/myapp/models/usersmodel.js</file>
+            <file>file:/C:/Users/Dimple%20Sharma/Desktop/myapp/models/adminmodel.js</file>
+        </group>
+    </open-files>
+</project-private>
